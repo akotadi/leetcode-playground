@@ -20,7 +20,7 @@ const retryLink = new RetryLink({
 const config: GatsbyConfig = {
   siteMetadata: {
     title: "Leetcode Playground",
-    siteUrl: "https://akotadi.me/"
+    siteUrl: "https://akotadi.github.io/"
   },
   pathPrefix: "/leetcode-playground",
   graphqlTypegen: true,
