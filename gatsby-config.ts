@@ -4,8 +4,6 @@ import fs from "fs";
 import { createHttpLink, from } from "@apollo/client";
 import { RetryLink } from "@apollo/client/link/retry";
 
-const adapter = require("gatsby-adapter-netlify").default
-
 const retryLink = new RetryLink({
   delay: {
     initial: 100,
@@ -24,9 +22,6 @@ const config: GatsbyConfig = {
     title: "Leetcode Playground",
     siteUrl: "https://www.yourdomain.tld"
   },
-  adapter: adapter({
-    excludeDatastoreFromEngineFunction: false,
-  }),
   graphqlTypegen: true,
   plugins: [
     {

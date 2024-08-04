@@ -18,7 +18,6 @@
   "dependencies": {
     "autoprefixer": "^10.4.20",
     "gatsby": "^5.13.5",
-    "gatsby-adapter-netlify": "^1.1.7",
     "gatsby-plugin-postcss": "^6.13.1",
     "gatsby-source-graphql": "^5.13.1",
     "postcss": "^8.4.40",
